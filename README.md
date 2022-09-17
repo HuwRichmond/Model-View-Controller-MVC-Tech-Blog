@@ -1,10 +1,17 @@
-# 14 Model-View-Controller (MVC): Tech Blog
+# Model-View-Controller (MVC): Tech Blog
 
-## Your Task
+## Description
 
-Writing about tech can be just as important as making it. Developers spend plenty of time creating new applications and debugging existing codebases, but most developers also spend at least some of their time reading and writing about technical concepts, recent advancements, and new technologies. A simple Google search for any concept covered in this course returns thousands of think pieces and tutorials from developers of all skill levels!
+The application is a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on posts from other developers. The app follows the MVC paradigm in its architectural structure, uses Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication. The application was deployed using Heroku.
 
-Your task this week is to build a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. You’ll build this site completely from scratch and deploy it to Heroku. Your app will follow the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
+## Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributors](#contributors)
+- [Tests](#tests)
+- [Contact](#contact)
 
 ## User Story
 
@@ -51,3 +58,38 @@ THEN I am signed out of the site
 WHEN I am idle on the site for more than a set time
 THEN I am able to view comments but I am prompted to log in again before I can add, update, or delete comments
 ```
+
+## Installation
+
+The application uses the following packages:
+
+-MySQL
+-dotenv
+-express
+-handlebars
+-bcrypt
+-sequelize  
+
+## Usage
+
+New users can use the application by visiting the delpyed webpage using the URL for the deployed application.
+
+After the webpage has loaded on the user's browser, users will be prompted to create an account.
+
+## License
+
+MIT
+
+## Contributors
+
+Huw Richmond
+
+## Tests
+
+None
+
+## Contact
+
+[GitHub](https://github.com/HuwRichmond)
+
+
