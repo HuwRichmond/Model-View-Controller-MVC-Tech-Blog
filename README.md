@@ -63,12 +63,12 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 
 The application uses the following packages:
 
--MySQL
--dotenv
--express
--handlebars
--bcrypt
--sequelize  
+- MySQL
+- dotenv
+- express
+- handlebars
+- bcrypt
+- sequelize  
 
 ## Usage
 
