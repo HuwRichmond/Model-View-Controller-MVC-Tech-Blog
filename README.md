@@ -14,6 +14,8 @@ The application is a CMS-style blog site similar to a Wordpress site, where deve
 - [Tests](#tests)
 - [Contact](#contact)
 
+![Screenshot of deployed application on browser".](.\assets\images\Screenshot.png)
+
 ## User Story
 
 ```md
