@@ -75,7 +75,9 @@ The application uses the following packages:
 
 New users can use the application by visiting the delpyed webpage using the URL for the deployed application.
 
-After the webpage has loaded on the user's browser, users will be prompted to create an account.
+When new users visit the deployed URL, you can view previous blog posts without creating a new account.
+
+Users will need to create an account first to post new content on the blog.
 
 ## License
 
